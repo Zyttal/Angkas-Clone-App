@@ -21,8 +21,8 @@ class DriverRatingScreen extends ConsumerWidget {
               pricing: null,
             );
 
-            Navigator.pushReplacement(context,
-                MaterialPageRoute(builder: (context) => RiderMapsScreen()));
+            // Navigator.pushReplacement(context,
+            //     MaterialPageRoute(builder: (context) => RiderMapsScreen()));
           },
         ),
       ),

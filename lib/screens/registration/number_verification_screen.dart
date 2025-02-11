@@ -83,10 +83,10 @@ class VerificationScreen extends ConsumerWidget {
                             buildSnackBar(
                                 "Logging in to Existing User.", true, context));
 
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => RiderMapsScreen()));
+                        // Navigator.push(
+                        //     context,
+                        //     MaterialPageRoute(
+                        //         builder: (context) => RiderMapsScreen()));
                         return;
                       }
 
